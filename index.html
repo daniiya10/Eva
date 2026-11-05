@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Site de teste</title>
+<style>
+:root{--bg:#fafafa;--fg:#1a1a1a;--card:#fff;--accent:#6d4aff;--muted:#666;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121212;--fg:#f2f2f2;--card:#1e1e1e;--muted:#aaa}}
+html{height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--fg);font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}
+main{max-width:480px;padding:24px}
+.card{background:var(--card);padding:32px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,.1)}
+h1{margin:0 0 8px}
+p{color:var(--muted)}
+button{background:var(--accent);color:#fff;border:0;padding:12px 24px;border-radius:8px;font-size:1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+<h1>Olá, mundo! 👋</h1>
+<p>Este é um site de teste feito só com HTML.</p>
+<button onclick="this.textContent='Funcionou! 🎉'">Clique aqui</button>
+</div>
+</main>
+</body>
+</html>
